@@ -1,0 +1,33 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+##
+#
+
+t=input("entrez votre taille ,positive, en centimetres")
+t = int(t)
+print("taille : ",t,"cm.")
+m = input("entez votre masse, positive et en kg")
+m = int(m)
+print("masse:",m,"kg.")
+imc = m/(t**2)
+print("valeur de votre imc:",imc)
+if imc>16.5 and imc>0:
+	print("vous êtes en famine.")
+
+if imc<18.5 and imc>16.5:
+ print("vous êtes en maigreur")
+
+if imc<25 and imc>18.5:
+ print("corpulence moyenne")
+
+if imc<30 and imc>25:
+ print("surpoids")
+
+if imc<35 and imc>30:
+	 print("obesité modérée")
+	 
+if imc<40 and imc>35:
+ print("obesité sévère")
+ 
+if imc>=40:
+	 print("obésité morbide ou massive")
