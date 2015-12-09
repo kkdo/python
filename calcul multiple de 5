@@ -1,0 +1,16 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+#kevin
+#programme multiple de 5
+a=int(input("entrez un nombre entier positif:"))
+b=int(input("entrez un nombre entier positif:"))
+x=a
+somme=0
+while(x<b):
+	print(x)
+	if x%5==0:
+		print(x)
+		somme=somme+x
+	x=x+1
+print("somme de tout les multiples:") 
+print (somme)
