@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+##
+#
+a=input("entrer votre phrase")
+tableau=a.split()
+longueur=0
+for mots in tableau:
+  if len(mots)>longueur:
+	  longueur=len(mots)
+print (longueur)
